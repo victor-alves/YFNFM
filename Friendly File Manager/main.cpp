@@ -1,11 +1,8 @@
-#include "Primary Feature 1.h";
-#include "Primary Feature 2.h";
-#include "Special Feature 1.h";
-#include "Special Feature 2.h";
-
+#include "menu.h"
 using namespace std;
 
 int main()
 {
+	menu();
 	return 0;
 }
