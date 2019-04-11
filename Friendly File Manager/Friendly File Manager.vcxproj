@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blackjack.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="Primary Feature 1.cpp" />
@@ -123,6 +124,8 @@
     <ClCompile Include="Special Feature 2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blackjack.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="Primary Feature 1.h" />
     <ClInclude Include="Primary Feature 2.h" />
     <ClInclude Include="Special Feature 1.h" />

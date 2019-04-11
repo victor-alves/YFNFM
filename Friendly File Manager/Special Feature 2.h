@@ -3,4 +3,4 @@
 #include <fstream>
 using namespace std;
 
-void specialFeature2(string fileName) {};
+void specialFeature2(string fileName);

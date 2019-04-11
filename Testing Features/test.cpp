@@ -1,11 +1,32 @@
 #include "pch.h"
 #include <cstdlib>
 #include <fstream>
+#include "../Friendly File Manager/menu.h"
 using namespace std;
 
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
   EXPECT_TRUE(true);
+}
+
+TEST(Feature1Test, filePermanentlyEncrypted)
+{
+	fstream testFile;
+	string content;
+
+	// Open the file and add sample text
+	testFile.open("sample.txt");
+	testFile << "Some sample text." << endl;
+	testFile.close();
+
+	// "Permanently encrypt" the file
+	primaryFeature1("sample.txt");
+
+	// Open and see if it worked!
+	testFile.open("sample.txt");
+	getline(cin, content);
+
+	ASSERT_TRUE(content == randomString);
 }
 
 TEST(Feature2Test, fileGoneOnRun) {
