@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="Primary Feature 1.cpp" />
     <ClCompile Include="Primary Feature 2.cpp" />
     <ClCompile Include="Special Feature 1.cpp" />
