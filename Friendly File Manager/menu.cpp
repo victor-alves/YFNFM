@@ -25,9 +25,9 @@ void menu() {
 		else if (choice == "2")
 			primaryFeature2(sacrificeFile);
 		else if (choice == "3")
-			primaryFeature3(sacrificeFile);
+			specialFeature1(sacrificeFile);
 		else if (choice == "4")
-			primaryFeature4();
+			specialFeature2();
 		else
 			cout << "Invalid input detected.";
 
