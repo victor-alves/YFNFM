@@ -1,0 +1,137 @@
+﻿  blackjack.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(5): error C2084: function 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)' already has a body
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.h(10): note: see previous definition of 'calculateScore'
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(39): error C2084: function 'void printStatus(std::vector<std::string,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &)' already has a body
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.h(13): note: see previous definition of 'printStatus'
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(41): error C2568: '<<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(41): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(47): error C2568: '<<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(47): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(85): error C2446: '>': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(85): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(97): error C2446: '<': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(97): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(103): error C2446: '>': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(103): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(107): error C2568: '>': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(107): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(111): error C2568: '<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(111): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  main.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 2.h(6): error C2084: function 'void specialFeature2(std::string)' already has a body
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\primary feature 1.h(8): note: see previous definition of 'specialFeature2'
+  menu.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 2.h(6): error C2084: function 'void specialFeature2(std::string)' already has a body
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\primary feature 1.h(8): note: see previous definition of 'specialFeature2'
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.cpp(28): error C3861: 'primaryFeature1': identifier not found
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.cpp(33): error C3861: 'primaryFeature2': identifier not found
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\menu.cpp(38): error C3861: 'specialFeature1': identifier not found
+  Primary Feature 1.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\primary feature 1.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Primary Feature 2.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\primary feature 2.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Special Feature 1.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 1.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Special Feature 2.cpp
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 2.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(5): error C2084: function 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)' already has a body
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.h(10): note: see previous definition of 'calculateScore'
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(39): error C2084: function 'void printStatus(std::vector<std::string,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &)' already has a body
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.h(13): note: see previous definition of 'printStatus'
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(41): error C2568: '<<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(41): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(47): error C2568: '<<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(47): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(85): error C2446: '>': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(85): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(97): error C2446: '<': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(97): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(103): error C2446: '>': no conversion from 'int' to 'int (__cdecl *)(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(103): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(107): error C2568: '>': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(107): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(111): error C2568: '<': unable to resolve function overload
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\blackjack.cpp(111): note: could be 'int calculateScore(std::vector<std::string,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=std::string
+          ]
+d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 2.cpp(4): error C2084: function 'void specialFeature2(std::string)' already has a body
+  d:\csi-330-01\projects\extreme programming\yfnfm\friendly file manager\special feature 2.h(6): note: see previous definition of 'specialFeature2'
+  Generating Code...
