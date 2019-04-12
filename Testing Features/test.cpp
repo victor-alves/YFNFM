@@ -1,9 +1,10 @@
 #include "pch.h"
-#include <cstdlib>
 #include <fstream>
-#include "../Friendly File Manager/menu.h"
+#include "../Friendly File Manager/Primary Feature 1.h"
+#include "../Friendly File Manager/Primary Feature 2.h"
+#include "../Friendly File Manager/Special Feature 1.h"
+#include "../Friendly File Manager/Special Feature 2.h"
 #include "../Friendly File Manager/blackjack.h"
-using namespace std;
 
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
@@ -70,7 +71,7 @@ TEST(SpecialFeature2Test, blackjack)
 	testFile.open(fileName);
 	testFile << "Some sample text exclusive to testFile" << endl;
 
-	const int val = blackjack();
+	const int val = specialFeature2(fileName);
 	
-	ASSERT_TRUE(val == 0 || val == 1);
+	ASSERT_TRUE(val == 0);
 }
