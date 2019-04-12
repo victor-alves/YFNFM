@@ -4,11 +4,12 @@ void menu()
 {
 	string	fileName = "";
 	int		choice = 0;
-
+	
+	cout << "\nPlease select a file\nwith extension:";
+	cin >> fileName;
+	
 	while (choice != 5) 
 	{
-		cout << "Please select a file\nwith extension:";
-		cin >> fileName;
 		cout << "Main Menu:" << endl
 			<< "    1. Encrypt the file" << endl
 			<< "    2. Read and display the file" << endl
@@ -22,11 +23,15 @@ void menu()
 		case 1:
 			{
 			primaryFeature1(fileName);
+			cout << "Please select a file\nwith extension:";
+			cin >> fileName;
 			break;
 			}	
 		case 2:
 			{
 			int result = primaryFeature2(fileName);
+			cout << "Please select a file\nwith extension:";
+			cin >> fileName;
 			break;
 			}
 		case 3:
@@ -37,14 +42,19 @@ void menu()
 		case 4:
 			{
 			specialFeature2(fileName);
+			cout << "Please select a file\nwith extension:";
+			cin >> fileName;
 			break;
 			}
 		case 5:
 			{
 			cout << "Have a wonderful day! :-)" << endl;
+			break;
 			}
 		default:
 			cout << "Invalid input detected." << endl;
+			cout << "Please select a file\nwith extension:";
+			cin >> fileName;
 		}
 	}
 
