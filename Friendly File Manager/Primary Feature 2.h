@@ -1,6 +1,9 @@
 #pragma once
 #include <string>
 #include <fstream>
+#include <sstream>
+#include <iostream>
 using namespace std;
 
-void primaryFeature2(const string fileName);
+
+int primaryFeature2(const string fileName);
