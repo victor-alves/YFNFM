@@ -30,7 +30,7 @@ void menu() {
 			}	
 		case 2:
 			{
-			primaryFeature2(fileName);
+			int result = primaryFeature2(fileName);
 			break;
 			}
 		case 3:
