@@ -1,6 +1,8 @@
 #pragma once
- 
+
+#include <string>
+#include <cstdio>
 #include <fstream>
 using namespace std;
 
-void specialFeature2(string fileName);
+int specialFeature2(string fileName);

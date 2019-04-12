@@ -1,13 +1,12 @@
-#include "Special Feature 2.h";
-#include "blackjack.cpp"
+#include "Special Feature 2.h"
+#include "blackjack.h"
 
 
-void specialFeature2(string fileName) {
+int specialFeature2(string fileName) {
 	ofstream executioner;
-	if (blackjack() == 0) {
+	const int val = blackjack();
+	if (val == 0)
+		const int removed = remove(fileName.c_str());
 
-		executioner.open(fileName, ofstream::out | ofstream::trunc);
-		executioner.close();
-	}
-
+	return val;
 }

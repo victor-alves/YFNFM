@@ -1,5 +1,4 @@
-#include "Primary Feature 2.h";
-
+#include "Primary Feature 2.h"
 
 int primaryFeature2(const string fileName)
 {
@@ -19,18 +18,19 @@ int primaryFeature2(const string fileName)
 	file.seekg(0, ios::beg);
 
 	// Read half the file
-	while (newCount < maxCount / 2)
+	while (newCount < (maxCount / 2) + 1)
 	{
 		file >> line;
 		cout << line;
 		newCount++;
 	}
 
+	file.close();
 	// Delete file
-	const int result = remove(fileName.c_str());
+	const int result = std::remove(fileName.c_str());
 	if (result == 0)
 	{
-		cout << "Hang on... we're struggling to read from the file" << endl
+		cout << "\nHang on... we're struggling to read from the file" << endl
 			<< "..." << endl << "...." << endl << "....." << endl
 			<< "Disaster strikes! The file is nowhere to be found!" << endl;
 	}

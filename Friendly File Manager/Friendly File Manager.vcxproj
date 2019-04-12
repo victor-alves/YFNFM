@@ -132,7 +132,7 @@
     <ClInclude Include="Special Feature 2.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt" />
+    <Text Include="Text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
