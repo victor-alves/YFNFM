@@ -5,4 +5,5 @@ void primaryFeature1(string fileName) {
 	fileBreaker.open(fileName, ofstream::out | ofstream::trunc);
 	fileBreaker << randomString;
 	fileBreaker.close();
+	cout << "File has been encrypted!" << endl;
 }

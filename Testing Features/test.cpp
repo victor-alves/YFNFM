@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <fstream>
 #include "../Friendly File Manager/menu.h"
+#include "../Friendly File Manager/blackjack.h"
 using namespace std;
 
 TEST(TestCaseName, TestName) {
@@ -39,17 +40,37 @@ TEST(Feature2Test, fileDeleted) {
 	ASSERT_TRUE(primaryFeature2("sample.txt") == 0);
 }
 
-TEST(SpecialFeature1Test, fileDifferent) {
-	fstream testFile;
-	fstream testFile2;
+TEST(SpecialFeature1Test, fileDifferent)
+{
+	fstream testFile, testFile2;
+	string fileName = "sample.txt",
+		temp,
+		newFile;
+	
 	bool pass = false;
-	string temp;
-	testFile.open("sample.txt");
+
+	testFile.open(fileName);
 	testFile << "Some sample text exclusive to testFile" << endl;
-	testFile2 = specialFeature1(testFile);
+	
+	newFile = specialFeature1(fileName);
+	testFile2.open(newFile);
 	getline(testFile2, temp);
+	
 	if (temp != "Some sample text exclusive to testFile") {
 		pass = true;
 	}
 	ASSERT_TRUE(pass);
+}
+
+TEST(SpecialFeature2Test, blackjack)
+{
+	fstream testFile;
+	string fileName = "sample.txt";
+
+	testFile.open(fileName);
+	testFile << "Some sample text exclusive to testFile" << endl;
+
+	const int val = blackjack();
+	
+	ASSERT_TRUE(val == 0 || val == 1);
 }
